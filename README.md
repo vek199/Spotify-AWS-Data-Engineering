@@ -33,13 +33,13 @@ IAM User Policy
 
 The IAM user policy defines the necessary permissions for a user to access and manage AWS services securely. It ensures appropriate access to S3, Glue, Athena, and QuickSight.
 
-(Screenshot: screenshot/iam-user-policy.png)
+![iam user policy](screenshots/iam-user-policy.png)
 
 2. S3 Bucket Structure
 
 The S3 bucket is organized into multiple folders for structured data storage. It includes raw data, processed data, and output files used by Athena and QuickSight.
 
-(Screenshot: screenshot/s3-bucket-folders.png)
+![s3 bucket folders](screenshots/s3-bucket-folders.png)
 
 3. AWS Glue Setup
 
@@ -49,28 +49,28 @@ AWS Glue Crawler
 
 The Glue crawler automatically discovers datasets and updates the AWS Glue Data Catalog.
 
-(Screenshot: screenshot/AWS-Glue-Crawler.png)
+![AWS Glue Crawler](screenshots/AWS-Glue-Crawler.png)
 
 AWS Glue Jobs
 
 AWS Glue jobs are used for data transformation and processing before making it available for querying.
 
-(Screenshot: screenshot/AWS-Glue.png)
+![AWS Glue](screenshots/AWS-Glue.png)
 
 4. AWS Athena
 
 AWS Athena is used to query the processed data stored in S3 using standard SQL syntax. The query results are stored in a designated S3 output folder.
 
-(Screenshot: screenshot/AWS-Athena-Output.png)
+![Athena output](screenshots/AWS-Athena-Output.png)
 
 5. AWS QuickSight
 
 AWS QuickSight is used for data visualization and analytics. It connects to Athena and enables interactive dashboards for business insights.
 
-(Screenshot: screenshot/AWS-Quicksight-Dashboard.png)
+![AWS Quicksight Dashboard](screenshots/AWS-Quicksight-Dashboard.png)
 
 6. AWS Architecture
 
 The overall AWS architecture integrates IAM, S3, Glue, Athena, and QuickSight into a seamless data pipeline. The architecture diagram illustrates the flow of data from ingestion to visualization.
 
-(Screenshot: screenshot/aws-architecture.png)
+![aws architecture](screenshots/aws-architecture.png)
