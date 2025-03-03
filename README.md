@@ -27,7 +27,7 @@ IAM Role
 
 The IAM role configured in the pipeline has necessary permissions to access and interact with AWS services. The role is used by AWS Glue and other services that require permission to access S3 and perform ETL operations.
 
-(Screenshot: screenshot/iam-role.png)
+![iam role](screenshots/iam-role.png)
 
 IAM User Policy
 
